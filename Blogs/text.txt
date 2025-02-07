@@ -1,0 +1,14 @@
+
+user router -->
+1. Register (post)
+2. Login    (post)
+3. Get all users (get)
+4. Single User   (Delete)
+5. Logout   
+
+
+Blog router --->
+1. Get all the blogs (everyone) --->no need of authentication/Login
+2. create a new blog (author) ---> yes authentication is required
+3. Edit a blog (author their own blog /admin) ---> author or admin 
+4. Delete a blog (author author delete own blog /admin)
