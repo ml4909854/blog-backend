@@ -19,7 +19,7 @@ app.use("/blogs", blogRouter);
 // .env FILEDATA
 // health
 
-app.get("/health", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hi Iam good");
 });
 
