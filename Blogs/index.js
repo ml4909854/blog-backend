@@ -7,7 +7,7 @@ const userRouter = require("./controllers/userController.js");
 const blogRouter = require("./controllers/blogContorller.js");
 
 app.use(cors({
-  origin: "*", // Replace with your frontend URL
+  origin: process.env.FRONTEND_URL, // Replace with your frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
